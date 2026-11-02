@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "eyebrow": "VRF and HVAC maintenance",
+    "headline": "When one zone fails at peak load, your tenants feel it first.",
+    "lead": "We keep VRF and HVAC systems running for offices, apartments, and factories. Planned maintenance, fast repairs, and a clear record of every visit.",
+    "primaryCta": "Request a site survey",
+    "secondaryCta": "See our services",
+    "mediaAlt": "Diagram of the five-stage VRF system lifecycle"
+  },
+  "problem": {
+    "heading": "Downtime is never just a service ticket.",
+    "items": [
+      {
+        "title": "Tenants lose comfort first",
+        "description": "A failed zone at peak load turns into calls, complaints, and rent pressure before anyone reaches the plant room."
+      },
+      {
+        "title": "Small faults become shutdowns",
+        "description": "Deferred filter changes and unchecked pressures shorten compressor life and raise emergency call-outs."
+      },
+      {
+        "title": "No one owns the whole system",
+        "description": "Installers, cleaners, and repair teams hand over notes that do not match the site. We keep one record."
+      }
+    ],
+    "closing": "We plan around your building, not a generic checklist."
+  },
+  "services": {
+    "heading": "One team for the whole lifecycle.",
+    "summary": "From first install to retrofit, the same discipline applies: inspect, measure, document, act."
+  },
+  "proof": {
+    "heading": "Proof you can check.",
+    "numerals": [
+      { "value": "10", "label": "Years maintaining VRF systems" },
+      { "value": "150", "label": "Buildings under planned maintenance" },
+      { "value": "4", "label": "Average emergency response, hours" },
+      { "value": "60", "label": "Active maintenance contracts" }
+    ]
+  },
+  "caseStory": {
+    "title": "Cooling restored before opening",
+    "client": "Resort",
+    "problem": "A zone controller failed overnight and left the east wing without cooling before a scheduled opening.",
+    "fix": "We isolated the fault, replaced the controller, and verified pressures and airflow across the affected zones.",
+    "result": "The wing opened on time with every zone inside its design range.",
+    "metric": "14 Hours",
+    "metricLabel": "From call-out to cooling restored"
+  },
+  "audience": {
+    "heading": "Built for the people who answer the calls.",
+    "items": [
+      {
+        "title": "Building managers",
+        "description": "One accountable team, clear reports, and fewer surprise breakdowns."
+      },
+      {
+        "title": "Office operations",
+        "description": "Comfort that holds through meetings, deadlines, and peak hours."
+      },
+      {
+        "title": "Apartment owners",
+        "description": "Quiet, reliable units and maintenance that respects residents."
+      },
+      {
+        "title": "Factory teams",
+        "description": "Process cooling that stays inside its operating limits."
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Start with a site survey.",
+    "text": "We inspect your system, document what we find, and give you a clear scope. No obligation.",
+    "button": "Request a site survey"
+  }
+}

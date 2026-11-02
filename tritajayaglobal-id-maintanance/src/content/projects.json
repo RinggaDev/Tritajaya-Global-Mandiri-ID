@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Zone controller failure before a resort opening",
+    "client": "Coastal Resort, East Wing",
+    "location": "Bali, Indonesia",
+    "buildingType": "Resort",
+    "serviceType": "Emergency repair",
+    "problem": "A zone controller failed overnight and left the east wing of a 180-room resort without cooling two months before its scheduled opening. Rooms could not be handed over until every zone held its set temperature.",
+    "fix": "We isolated the fault to the controller, replaced it with a matching unit, and checked refrigerant pressures and airflow across all 46 indoor units in the wing. Each zone was tested against its design range before we released the system.",
+    "result": "The east wing opened on schedule. All 46 indoor units run inside their design range, and the owner received a written commissioning report.",
+    "metric": "2 months",
+    "metricLabel": "From call-out to cooling restored",
+    "tags": ["VRF", "Emergency repair", "Hospitality"],
+    "published": true
+  },
+  {
+    "title": "Preventive maintenance contract for a six-floor office",
+    "client": "Office building operator",
+    "location": "Jakarta, Indonesia",
+    "buildingType": "Office",
+    "serviceType": "Preventive maintenance",
+    "problem": "Tenant complaints about uneven temperatures rose every summer. Repeated call-outs cost more than a planned service plan would have.",
+    "fix": "We set up a quarterly preventive maintenance schedule covering filters, coils, and pressure checks on every VRF outdoor and indoor unit. Each visit produced a logged report with readings against manufacturer limits.",
+    "result": "Emergency call-outs dropped to zero over the first 12 months, and the building manager now plans the service budget a year ahead.",
+    "metric": "0",
+    "metricLabel": "Emergency call-outs in the first 12 months",
+    "tags": ["VRF", "Preventive maintenance", "Office"],
+    "published": true
+  },
+  {
+    "title": "Phased retrofit of an aging apartment block",
+    "client": "Residential property owner",
+    "location": "Bandung, Indonesia",
+    "buildingType": "Apartment",
+    "serviceType": "Retrofit",
+    "problem": "An apartment block of 60 units had aging split systems and a failing central plant. Running costs were rising and residents were losing comfort on hot days.",
+    "fix": "We replaced the plant in three phases, floor by floor, so residents kept cooling during the work. Controls were upgraded to schedule each zone by occupancy.",
+    "result": "Energy use fell by about 30 percent in the first year, and no unit was without cooling for more than one day.",
+    "metric": "30%",
+    "metricLabel": "Reduction in energy use in year one",
+    "tags": ["VRF", "Retrofit", "Apartment"],
+    "published": true
+  }
+]

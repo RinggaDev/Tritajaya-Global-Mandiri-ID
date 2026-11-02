@@ -1,0 +1,30 @@
+{
+  "heading": "The full service lifecycle.",
+  "lead": "Every engagement follows the same five stages. You always know where your building sits.",
+  "services": [
+    {
+      "title": "Preventive maintenance",
+      "problem": "Filters, coils, and pressures drift out of spec between visits.",
+      "solution": "Scheduled inspections, cleaning, and measured checks against the manufacturer's limits.",
+      "outcome": "Fewer breakdowns and a documented service history."
+    },
+    {
+      "title": "Emergency repair",
+      "problem": "A fault stops cooling in one zone or across the whole building.",
+      "solution": "Diagnosis, isolation, and repair with parts sourced for your equipment.",
+      "outcome": "Comfort restored and the root cause written into your report."
+    },
+    {
+      "title": "Installation",
+      "problem": "New equipment is only as good as its commissioning.",
+      "solution": "Load review, pipework and controls checks, then commissioning to design values.",
+      "outcome": "A system that runs to specification from day one."
+    },
+    {
+      "title": "Retrofit",
+      "problem": "Aging systems no longer meet occupancy or efficiency needs.",
+      "solution": "Phased replacement and controls upgrades planned around building use.",
+      "outcome": "Lower running costs without closing the building."
+    }
+  ]
+}
