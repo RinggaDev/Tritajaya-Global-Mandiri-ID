@@ -46,12 +46,19 @@ export function HomePage() {
             </div>
           </div>
 
-          <div className="sm:col-span-5">
-            <img src="./public/hero_banner.webp" alt="{hero.mediaAlt}" className='hero-media'></img>
-            {/* <figure className="hero-media">
-               
-              {/* <figcaption className="sr-only">{hero.mediaAlt}</figcaption> */}
-            {/* </figure> */}
+          <div className="lg:col-span-5">
+            <figure className="hero-media">
+              <img
+                src="/hero_banner.webp"
+                alt={hero.mediaAlt}
+                width={1355}
+                height={509}
+                loading="eager"
+                fetchPriority="high"
+                decoding="async"
+                className="h-auto w-full rounded-media object-cover"
+              />
+            </figure>
           </div>
         </div>
       </section>
