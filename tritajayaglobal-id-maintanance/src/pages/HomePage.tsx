@@ -56,7 +56,7 @@ export function HomePage() {
                 loading="eager"
                 fetchPriority="high"
                 decoding="async"
-                className="h-auto w-full rounded-media object-cover"
+                className="h-full w-full rounded-media object-cover"
               />
             </figure>
           </div>
