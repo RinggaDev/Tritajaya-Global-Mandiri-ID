@@ -1,7 +1,7 @@
 [
   {
     "title": "Zone controller failure before a resort opening",
-    "client": "Coastal Resort, East Wing",
+    "client": "Wyndham Dreamland Resort Bali",
     "location": "Bali, Indonesia",
     "buildingType": "Resort",
     "serviceType": "Emergency repair",
@@ -15,9 +15,9 @@
   },
   {
     "title": "Preventive maintenance contract for a six-floor office",
-    "client": "Office building operator",
-    "location": "Jakarta, Indonesia",
-    "buildingType": "Office",
+    "client": "MAXONE Loji Kridanggo Boyolali",
+    "location": "Boyolali, Indonesia",
+    "buildingType": "Hotels",
     "serviceType": "Preventive maintenance",
     "problem": "Tenant complaints about uneven temperatures rose every summer. Repeated call-outs cost more than a planned service plan would have.",
     "fix": "We set up a quarterly preventive maintenance schedule covering filters, coils, and pressure checks on every VRF outdoor and indoor unit. Each visit produced a logged report with readings against manufacturer limits.",
@@ -29,8 +29,8 @@
   },
   {
     "title": "Phased retrofit of an aging apartment block",
-    "client": "Residential property owner",
-    "location": "Bandung, Indonesia",
+    "client": "Saumata Apartment",
+    "location": "Tangerang, Indonesia",
     "buildingType": "Apartment",
     "serviceType": "Retrofit",
     "problem": "An apartment block of 60 units had aging split systems and a failing central plant. Running costs were rising and residents were losing comfort on hot days.",
