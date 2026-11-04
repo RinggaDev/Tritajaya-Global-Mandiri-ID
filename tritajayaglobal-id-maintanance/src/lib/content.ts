@@ -29,7 +29,9 @@ export function isReal(value: unknown): boolean {
 export const company = companyJson as Company
 export const home = homeJson as HomeContent
 export const services = servicesJson as ServicesContent
-export const projects = (projectsJson as Project[]).filter(isReal)
+export const projects = (projectsJson as Project[])
+  .filter((project) => project.published !== false)
+  .filter(isReal)
 export const about = aboutJson as AboutContent
 
 export const siteName = isReal(company.brand)

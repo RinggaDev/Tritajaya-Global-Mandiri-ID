@@ -95,11 +95,17 @@ export interface ServicesContent {
 export interface Project {
   title: string
   client?: string
+  location?: string
+  buildingType?: string
+  serviceType?: string
   problem: string
   fix: string
   result: string
   metric: string
   metricLabel: string
+  tags?: string[]
+  image?: string
+  published?: boolean
 }
 
 export interface AboutContent {

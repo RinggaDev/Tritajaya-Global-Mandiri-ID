@@ -32,10 +32,10 @@
   "proof": {
     "heading": "Proof you can check.",
     "numerals": [
-      { "value": "10", "label": "Years maintaining VRF systems" },
-      { "value": "150", "label": "Buildings under planned maintenance" },
-      { "value": "4", "label": "Average emergency response, hours" },
-      { "value": "60", "label": "Active maintenance contracts" }
+      { "value": "2+", "label": "Years maintaining VRF systems" },
+      { "value": "12", "label": "Buildings under planned maintenance" },
+      { "value": "4-7", "label": "Average emergency response, hours" },
+      { "value": "12", "label": "Active maintenance contracts" }
     ]
   },
   "caseStory": {
@@ -44,7 +44,7 @@
     "problem": "A zone controller failed overnight and left the east wing without cooling before a scheduled opening.",
     "fix": "We isolated the fault, replaced the controller, and verified pressures and airflow across the affected zones.",
     "result": "The wing opened on time with every zone inside its design range.",
-    "metric": "14 Hours",
+    "metric": "48 Hours",
     "metricLabel": "From call-out to cooling restored"
   },
   "audience": {
