@@ -85,6 +85,14 @@ export function SurveyForm() {
         }
       }
 
+      const errData = (await response.json().catch(() => null)) as {
+        error?: string
+        details?: string
+      } | null
+      if (errData?.error) {
+        console.error('Survey submission server error:', errData.error, errData.details || '')
+      }
+
       setStatus('error')
       setServerError(
         realPhone
@@ -93,7 +101,8 @@ export function SurveyForm() {
             ? `Please try again or email us at ${realEmail}.`
             : 'Please try again.',
       )
-    } catch {
+    } catch (err) {
+      console.error('Survey submission network error:', err)
       setStatus('error')
       setServerError(
         realPhone
